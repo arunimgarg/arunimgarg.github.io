@@ -1,163 +1,233 @@
-<!DOCTYPE HTML>
-<!--
-	Story by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Arunim Garg</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arunim Garg</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
-		<script type = "text/javascript">
-			<!--
-			function onload_main(){
-				displayMotto();
-			}
-			function displayMotto(){
-				var mottos = [
-					["The present is theirs; the future, for which I really worked, is mine.", "Nikola Tesla"],
-					["Be alone, that is the secret of invention; be alone, that is when ideas are born.", "Nikola Tesla"],
-					["Of all things, I liked books best.", "Nikola Tesla"],
-					["Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.", "Albert Einstein"],
-					["Try not to become a man of success, but rather try to become a man of value.", "Albert Einstein"],
-					["Failure is an option here. If things are not failing, you are not innovating enough.","Elon Musk"],
-					["Stay hungry, stay foolish.","Steve Jobs"],
-					["I propose to consider the question: Can machines think?","A. M. Turing"],
-					["Discipline is doing something you hate as if you love it.","Mike Tyson"],
-					["Only the dead have seen the end of war.","Plato"],
-				]
-				var randIndex = Math.floor(Math.random() * mottos.length);
-				document.getElementById("mottos").innerHTML = "\"" + mottos[randIndex][0] + "\" — <a style='font-weight:bold'>" + mottos[randIndex][1] + "</a> <a onclick=\"displayMotto()\">(Get Random Quote)</a>";
-			}
-			-->
-		</script>
-	</head>
-	<body class="is-preload" onload="onload_main()">
+body {
+  background: #F6F2EA;
+  color: #1A1612;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 300;
+  line-height: 1.7;
+  overflow-x: hidden;
+  padding-bottom: 20vh;
+}
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(26,22,18,0.12);
+  transition: border-color 0.2s;
+}
+a:hover { border-color: #1A1612; }
 
-				<!-- One -->
-					<section class="banner style3 orient-left content-align-left image-position-center onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>Arunim Garg</h1>
-<!-- 							<div style="width:150px; height:150px; margin-left: 0px;">
-								<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=6dLo9dNnuhCYVTEth1xhHk3Suav7RYnfj6RYiCvw9BE"></script>
-							</div> -->
-							<p class="major">Making data-driven decisions, one at a time.</p>
-							<p>Hi, I'm a future data scientist looking to make data-driven decisions to impact the world positively. I'm a recent data engineer, data analyst and currently a researcher. 
-								I completed my master's degree in computer science in 2021, and my research papers can be found <a target = "_blank" href="https://scholar.google.ca/citations?user=o7i_Yj4AAAAJ&hl=en&authuser=1&oi=ao"> here</a>.</p>
-							<p>I have made this website to keep track of my <!-- <a target = "_blank" href = "projects.html"> -->projects<!-- </a> -->, what I have learned in my <!--<a target = "_blank" href = "https://arunimgarg.com/site/"> --> notes <!-- </a> -->, and give you a summary of my work experience so far.</p>	
-							<div class="inner"> 
-								<ul class="icons">
-								<li><a target = "_blank" href="resume/Resume-Arunim.pdf" class="button big wide">Resume</a></li>
-								<li><a target = "_blank" href="https://twitter.com/arunim_garg" class="icon brands style2 fa-twitter"><span class="label"></span></a></li>
-								<li><a target = "_blank" href="https://www.instagram.com/aru.bik/" class="icon brands style2 fa-instagram"><span class="label"></span></a></li>
-								<li><a target = "_blank" href="https://www.linkedin.com/in/arunimgarg/" class="icon brands style2 fa-linkedin-in"><span class="label"></span></a></li>
-								<li><a target = "_blank" href="https://github.com/arunimgarg" class="icon brands style2 fa-github"><span class="label"></span></a></li>
-								</ul> 
- 							</div> 
-							<div id = 'mottos' style = 'font-style: italic;'>
-							<p>A random quote is loading... </p>
-							</div>
-						</div>
-						<div class="image">
-							<img src="images/arunim.jpeg" alt="" />
-						</div style="width:150px; height:150px; margin-left: 70px;">
-						<div><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=_1vFqaOZBNaeRQBJiquabTOL4X9GqTW8aCLsdgWoz5c"></script></div>
+.sig {
+  position: fixed;
+  top: 2rem; left: 2.5rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: #9A8E7E;
+  z-index: 10;
+}
 
-					</section>
-				
-<!-- 				<!-- Two -->
-					<section class="spotlight style5 orient-right content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Insurance Corporation of British Columbia (ICBC) - Data Engineer</h2>
-							<p>ICBC is a provincial crown corp that provides insurance for BC drivers. I have learned an awesome amount at this company, from agile development to code deployment, from working in a team of data engineers and quality analysts 
-								to working with a distributed storage system. In this role, I experienced how a large-scale company takes a data pipeline from a data source to its fruition. </p>
-							<p>So far, I have built 5 data pipelines that ingested up to 6B records of transactional data from multiple sources and created summary tables for a customer within ICBC. I have developed data transformation pipelines using TDD 
-								with Scala and Spark in Hadoop ecosystem, and used tools including Apache Hive, DBeaver, and RDBMS (Oracle and MySQL) to analyze data and support ad hoc requests. </p>
-							<ul class="actions stacked">
-								<li><a target = "_blank" href="https://icbc.com/" class="button">Learn More about the company</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/icbc.jpeg" alt="" />
-						</div>
-					</section> -->
-				
-				<!-- Three -->
-					<section class="spotlight style5 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>ZLC Financial - Data Analyst</h2>
-							<p>In this contract position, I migrated financial data to a new CRM system to enhance customer service and improve client relations for over 20 financial advisors by extracting, auditing, and consolidating their client data. 
-							I was able to expedite the migration process by a month by implementing a new pipeline to audit large datasets by automating data integrity review process.</p>
-							<p>As a data analyst, I want to work with different types of data, and financial data was on top of my list. This position helped me understand financial data closely.</p>
-							<ul class="actions stacked">
-								<li><a target = "_blank" href="https://zlc.net/" class="button">Learn More about the company</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/class.jpg" alt="" />
-						</div>
-					</section>
-				<!-- Four -->
-					<section class="spotlight style5 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>Lakehead University - Research Data Analyst</h2>
-							<p>For my master's thesis, I used data analysis techniques to examine the services being provided by family physicians in Ontario using a physician billing database to improve health human resource planning.</p>
-							<p>During this research, I learned how to ask the right questions to include all the research requirements to solve the problem. I also managed a dataset of 90 million records with complete data integrity. Furthermore, I analyzed the dataset by developing several machine learning models to predict and better understand the variables. Finally, I grasped the skill of sharing my analysis using beautiful and easy-to-read visualizations.</p>
-							<p>This was my passion project! It aligned with my life-long goal of helping people, and here is where I first fell in love with data.</p>
-							<p>Here are some of the publications from this research:
-							<ul class="actions stacked">
-								<li><a target = "_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1574013721000101" class="button">CSR Paper</a></li>
-								<li><a target = "_blank" href="https://ieeexplore.ieee.org/abstract/document/9671738" class="button">IEEE Paper</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/graph.jpg" alt="" />
-						</div>
-					</section>
+.corner {
+  position: fixed;
+  top: 2rem; right: 2.5rem;
+  display: flex; gap: 1.6rem;
+  z-index: 10;
+}
+.corner a {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: #9A8E7E;
+  border: none;
+}
+.corner a:hover { color: #1A1612; }
 
-				<!-- Five -->
-					<section class="spotlight style5 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Communica - ML Developer</h2>
-							<p>Communica, a stakeholder-engagement consulting firm based in Calgary, Alberta, works towards connecting, engaging, and collaborating with clients and their stakeholders in a real, pragmatic and thoughtful manner. In other words, they have a lot of communication data, from emails to phone records which need to be analyzed.</p>
-							<p>That's where I come in! In my contract position, I helped Communica automate text-analyzing processes by preparing an end-to-end NLP solution for text extraction, text summarization, and text proof-reading using a scalable ETL pipeline with Microsoft Azure services. I also developed and implemented scalable python applications for text retrieval and indexing that reduced email review time by 200x.</p>
-							<p>Most importantly, during my time here, I learned how to share results in stakeholder meetings, where the audience was from technical and non-technical backgrounds. I think this is a critical skill for a data analyst. I'm grateful to have had that experience during my time in this role.</p>
-							<ul class="actions stacked">
-								<li><a target = "_blank" href="https://communica.ca/expertise/" class="button">Learn More about the company</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/nlp.jpg" alt="" />
-						</div>
-					</section>
+.opening {
+  padding: 18vh 5vw 0;
+}
+.opening-line {
+  font-size: clamp(3.5rem, 8vw, 9rem);
+  font-weight: 300;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+.opening-line em { font-style: italic; }
+
+.bio {
+  margin-top: 10vh;
+  margin-left: clamp(2rem, 30vw, 46rem);
+  max-width: 38ch;
+  padding-right: 5vw;
+  font-size: 1rem;
+  color: #7C7060;
+  line-height: 1.9;
+}
 
 
+.work {
+  margin-top: 14vh;
+  padding: 0 5vw;
+}
 
-			</div>
+.work-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(26,22,18,0.07);
+}
+.work-row:last-child { border-bottom: 1px solid rgba(26,22,18,0.07); }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+.wr-name {
+  font-size: clamp(1.1rem, 2.5vw, 2rem);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.3;
+}
 
-	</body>
+.wr-meta {
+  font-size: 0.72rem;
+  color: #9A8E7E;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.writing {
+  margin-top: 14vh;
+  padding: 0 5vw;
+}
+
+.wi {
+  display: block;
+  padding: 1.5vh 0;
+  border-top: 1px solid rgba(26,22,18,0.07);
+  border-bottom: none;
+}
+.wi:last-child { border-bottom: 1px solid rgba(26,22,18,0.07); }
+
+.wi-title {
+  font-size: clamp(1.1rem, 2.8vw, 2.3rem);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #1A1612;
+  transition: color 0.25s;
+}
+.wi:hover .wi-title { color: #9A8E7E; }
+
+.contact {
+  margin-top: 14vh;
+  padding: 0 5vw;
+}
+.contact-line {
+  font-size: clamp(2rem, 5vw, 5.5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.contact-line em { font-style: italic; }
+
+.foot {
+  margin-top: 16vh;
+  padding: 0 5vw;
+  font-size: 0.78rem;
+  color: #B0A898;
+  line-height: 2;
+}
+.foot a { color: #B0A898; border-color: rgba(176,168,152,0.3); font-size: 0.78rem; }
+.foot a:hover { color: #1A1612; border-color: #1A1612; }
+
+@media (max-width: 600px) {
+  .sig { left: 1.5rem; }
+  .corner { right: 1.5rem; }
+  .opening { padding: 14vh 1.5rem 0; }
+  .bio { margin-left: 1.5rem; padding-right: 1.5rem; max-width: 100%; }
+  .research, .work, .writing, .contact, .foot { padding: 0 1.5rem; }
+  .pub { grid-template-columns: 1fr; gap: 0.4rem; }
+  .pub-right { text-align: left; }
+  .work-row { flex-direction: column; gap: 0.2rem; }
+  .wr-meta { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<span class="sig">Arunim Garg</span>
+<div class="corner">
+  <a href="mailto:hello@arunimgarg.com">email</a>
+  <a href="#">cv</a>
+</div>
+
+<div class="opening">
+  <div class="opening-line">
+    Educator.<br>
+    Researcher.<br>
+    <em>Builder.</em>
+  </div>
+</div>
+
+<div class="bio">
+  Lecturer at Acsenda School of Management, Vancouver. I chair the AI & Business Analytics concentration and am starting a PhD at York University focused on conversational AI for older adults navigating health systems.
+</div>
+
+<div class="work">
+  <div class="work-row">
+    <span class="wr-name">AIBA Concentration</span>
+    <span class="wr-meta">Acsenda · 2023–now</span>
+  </div>
+  <div class="work-row">
+    <span class="wr-name">FTS Framework</span>
+    <span class="wr-meta">IDGI Conference · 2024</span>
+  </div>
+  <div class="work-row">
+    <span class="wr-name">Industry Practicums</span>
+    <span class="wr-meta">Riipen · 2024–now</span>
+  </div>
+  <div class="work-row">
+    <span class="wr-name">ML in Medical Research</span>
+    <span class="wr-meta">Lakehead · 319 citations · 2021</span>
+  </div>
+  <div class="work-row">
+    <span class="wr-name">Health AI Research</span>
+    <span class="wr-meta">York University · ongoing</span>
+  </div>
+</div>
+
+<div class="writing">
+  <a href="#" class="wi">
+    <div class="wi-title">The FTS Framework: Sequencing AI Literacy in Business Education</div>
+  </a>
+  <a href="#" class="wi">
+    <div class="wi-title">Why Older Adults Need AI That Speaks Their Language — Literally</div>
+  </a>
+  <a href="#" class="wi">
+    <div class="wi-title">Open Source vs Proprietary in the Classroom: A False Choice?</div>
+  </a>
+  <a href="#" class="wi">
+    <div class="wi-title">What Moving to Canada at 17 Taught Me About Designing for Outsiders</div>
+  </a>
+</div>
+
+<div class="contact">
+  <div class="contact-line">
+    <a href="mailto:hello@arunimgarg.com"><em>hello@arunimgarg.com</em></a>
+  </div>
+</div>
+
+<div class="foot">
+  Chess. Swimming. Index funds.<br>
+  <a href="https://linkedin.com/in/arunim" target="_blank">LinkedIn</a> &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=o7i_Yj4AAAAJ" target="_blank">Google Scholar</a>
+</div>
+
+</body>
 </html>
-
